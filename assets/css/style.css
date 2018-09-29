@@ -1,0 +1,248 @@
+
+
+  body{
+      background-image:url(../images/vintage-concrete.png);
+      padding:0;
+      margin:0;
+  }
+
+
+.box-header {
+    border:#CCCCCC 1px solid;
+    position: relative;
+    height:60px;
+    width:100%;
+    background:#EEEEEE;
+    margin: 0px;
+    padding: 0px;
+
+}
+  
+  .button {
+    position: absolute;
+  font: bold 11px 'Arial','helvetica Neue', Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: grey;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  margin-left:1173px;
+  margin-top:20px;
+}
+.button2{
+    position: absolute;
+    font: bold 11px 'Arial','helvetica Neue', Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: grey;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  margin-left:1217px;
+  margin-top: 20px;
+}
+
+.button3{
+    position:absolute;
+    font: bold 11px 'Arial','helvetica Neue', Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: grey;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  margin-left:1276px;
+  margin-top:20px;
+}
+
+.my-name{
+position: absolute;
+color:white;
+background-color: teal;
+margin-left:374px;
+margin-top:0px;
+height:40px;
+padding:10px;
+text-align:center;
+}
+
+.main-content{
+  position:relative;
+  width:960px;
+  margin-top:100px;
+  height:600px;
+  margin-top:80px;
+  padding:5px;
+  margin-left: 366px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+
+}
+.main-content-portfolio{
+  position:relative;
+  width:960px;
+  margin-top:100px;
+  height:1000px;
+  margin-top:80px;
+  padding:5px;
+  margin-left: 366px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+
+}
+
+.about-me{
+  position:absolute;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width:960px;
+  color:#4aaaa5;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+  
+}
+
+img {
+  float: left;
+  margin: 10px;
+  border:0.5px solid black;
+}
+h1 {
+  border-bottom: gray solid 1px;
+  color:#4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom:2px;
+  margin-left:10px;
+  margin-right:10px;
+}
+p {
+margin: 15px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 2;
+color:grey;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #666666;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 5px solid #4aaaa5;
+}
+#footer{
+  margin-bottom: 0;
+}
+.image-zr1{
+  position: relative;
+  float: left;
+}
+.text-zr1{
+  position: absolute;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background:teal;
+  width:350.5px;
+text-align: center;
+font-weight: bold;
+margin-left:10px;
+margin-top: 190px;
+}
+.image-GTR50{
+  position: relative;
+  float: left;
+}
+.text-GTR50{
+  position: absolute;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background:teal;
+  width:350.5px;
+text-align: center;
+font-weight: bold;
+margin-left:380.5px;
+margin-top: 190px;
+}
+.image-Benz{
+  position: relative;
+  float: left;
+}
+.text-Benz{
+  position: absolute;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background:teal;
+  width:350.5px;
+text-align: center;
+font-weight: bold;
+margin-left:10px;
+margin-top: 460px;
+}
+.image-NSX{
+  position: relative;
+  float: left;
+}
+.text-NSX{
+  position: absolute;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background:teal;
+  width:350.5px;
+text-align: center;
+font-weight: bold;
+margin-left:380.5px;
+margin-top: 460px;
+}
+.image-Alfa{
+  position: relative;
+  float: left;
+}
+.text-Alfa{
+  position: absolute;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background:teal;
+  width:350.5px;
+text-align: center;
+font-weight: bold;
+margin-left:10px;
+margin-top: 720px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#message{
+  height:200px;
+}
+form{
+  margin-top:15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+input[type=submit] {
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20px;
+}
