@@ -1,51 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Contact | Kwo Sien Njo</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-<div class="box-header"> 
-  
-<h1 class="my-name">Kwo Sien Njo</h1>
-<a href="contact.html" class=button> About </a> 
-<a href="portfolio.html" class=button2>Portfolio</a> 
-<a href="index.html"class=button3>Contact </a>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Kwo Sien Njo</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-</div>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-<div class="main-content">
-    
-        <h1>About Me</h1>
-    
-    
-    <img src="assets/images/Kwo.jpg" alt="Kwo's Picture" width="150" height="200">
-   
-   
-    <p> My name is Kwo Sien Njo, for short Kwo. I'm working as a market researcher in Fremont area. I decided to join this course,
-        because it looks like everything is related to internet nowadays. <br> I hope joining this course would be a good investment
-    to my carrier in the long run. In my leasure time, I very much enjoy reading and finding out cool things about cars. <br>
-    My interest in cars is not limited to supercars like most people I also enjoy reading articles about ordinary cars and get
-    to know them. <br>I guess, since I started this course I would need to switch my interest to coding full time. So far,
-    I'm learning a lot in this class almost to the point of overwhelming. I understand that this is bootcamp, and not a conventional
-    type of learning. I just need to take a deep breath and remind my self, everything is going to be alright. In closing, 
-    I sure hope to master some of the important programing language from this class. Which I can use to advance my carrier.
-    I would like use my current experience and the new knowledge I retained from this class and create a synergy. 
-    Thank you, and I hope everybody will do EXCELLENT in this class.</p>
-    
-</div>
-<div class="footer">
-        <p id="footer">Copyright@</p>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-</div>
+    </section>
 
+  </div>
 
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
-      
-      </html>
+
+</html>
